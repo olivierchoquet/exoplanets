@@ -35,6 +35,7 @@ router.get('/search', (req, res, next) => {
 
 router.get('/exolunes', (req, res, next) => {
   res.render('exoplanets/indexExolune');
+  # test
 });
 
 
