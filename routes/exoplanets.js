@@ -33,6 +33,9 @@ router.get('/search', (req, res, next) => {
   res.render('exoplanets/index', { exoplanetsTable: exoplanetsTable, min3Char: min3Char });
 });
 
+router.get('/exolunes', (req, res, next) => {
+  res.render('exoplanets/indexExolune');
+});
 
 
 module.exports = router;
